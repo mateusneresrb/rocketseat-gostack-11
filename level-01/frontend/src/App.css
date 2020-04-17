@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-size: 14px;
+  background-color: #e5e5e5;
+}
+
+form {
+  margin-top: 50px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+form > input {
+  width: 230px;
+  margin-left: 30px;
+  border: none;
+  height: 40px;
+  padding-left: 12px;
+  border-radius: 27px;
+  background-color: #fff;
+  box-shadow: inset -4px -4px 5px #ffffff, inset 4px 4px 5px #d1d9e6;
+}
+
+form > button {
+  width: 190px;
+  margin-left: 30px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  background: linear-gradient(90deg, #02aab0 0%, #00cdac 100%);
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.5), 4px 4px 8px #d1d9e6;
+}
+
+form > button:hover {
+  opacity: 0.8;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.page-container header {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.page-container ul {
+  display: grid;
+  grid-template-columns: 665px 430px;
+  list-style: none;
+  grid-gap: 5px;
+  justify-items: center;
+}
+
+.page-container ul li {
+  position: relative;
+  margin-top: 75px;
+  width: 426px;
+  height: 450px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.page-container ul li button {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 20px;
+  border: none;
+}
+
+.page-container ul li button:hover {
+  opacity: 0.5;
+}
+
+.page-container ul li div {
+  display: flex;
+  width: 120;
+  height: 115;
+  margin-top: 42px;
+  justify-content: center;
+}
+
+.page-container ul li strong {
+  display: flex;
+  margin-top: 42px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.page-container ul li p {
+  display: flex;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.page-container ul li section {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container .icons {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.page-container .fiheart {
+  display: flex;
+  margin-top: 28px;
+  justify-content: center;
+}
